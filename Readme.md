@@ -9,4 +9,3 @@
 |r+|||<p align="center">x</p>|<p align="center">x</p>|<p align="center">x</p>|
 |a+||<p align="center">x</p>|<p align="center">x</p>|<p align="center">x</p>||
 |a+||<p align="center">x</p>|<p align="center">x</p>|<p align="center">x</p>||
-<style>
