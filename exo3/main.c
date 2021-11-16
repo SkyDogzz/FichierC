@@ -19,7 +19,7 @@ int main(int argc, char **argv)
     {
         for (int i = 0; i < 100; i++)
         {
-            int randomNb = rand();
+            int randomNb = rand() % 101;
             fwrite(&randomNb, sizeof(int), 1, file1);
         }
         fclose(file1);
@@ -34,7 +34,7 @@ int main(int argc, char **argv)
 
     for (int i = 0; i < 100; i++)
     {
-        randomNb[i] = rand();
+        randomNb[i] = rand() % 101;
     }
 
     file2 = fopen("nb2.dat", "wb");

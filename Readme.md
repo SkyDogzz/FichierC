@@ -1,4 +1,3 @@
-
 ## Code ouverture fichier c
 
 ||Création avec suppresion|Création sans suppression | Ecriture | Lecture | Modification
@@ -31,3 +30,15 @@ double value = 2.55;
 file = fopen("nb.dat","wb"");
 fwrite(&value, sizeof(double), 1, file);
 fclose(file);
+```
+
+## Exercice
+### Exercice 1
+ Ouverture du fichier exo.txt en création
+### Exercice 2
+Ouverture en lecture, modif, écriture,
+le crée si il n'existe pas, le garder si il existe
+### Exercice 3
+Construire 1 programme permettant d'écrire 100 nombre
+entiers au hasard (entre 0 et 100) dans un fichier binaire
+de 2 facon différentes
